@@ -1,0 +1,266 @@
+.nav{
+    background-color: #f5f7fa;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 10px;
+    align-items: center;
+}
+
+.img_logo{
+    display: flex;
+    align-items: center;
+
+}
+
+.mid-section{
+    display: flex;
+    gap: 15px;
+}
+
+.mid-section > p{
+    color: #4d4d4d;
+    font-size: 16px;
+}
+
+.hero-section{
+    background-color: #f5f7fa;
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 50px;
+}
+
+.hero-section > div > h1 > span{
+    color: #4caf4f;
+    font-weight: bolder;
+    font-size: 30px;
+    display: block;
+}
+
+.register{
+    background-color: #4caf4f;
+    border-radius: 5px;
+    border: none;
+    color: #ffffff;
+    padding: 16px 30px;
+}
+
+.client{
+    margin: 0px 96px;
+    /*flex-direction: column;*/
+    justify-content: space-around;
+    /*align-items: center;*/
+}
+
+.client > div{
+    /*align-items: center;*/
+    text-align: center;
+}
+.client-img{
+    display: flex;
+    justify-content: space-around;
+}
+
+
+.client-img div{
+    background-color: aliceblue;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.manage-community{
+    align-items: center;
+    text-align: center;
+    padding: 16px 36px;
+}
+
+.manage-community > p{
+    text-align: center;
+}
+
+.manage-community > h3 > span{
+    display: block;
+}
+
+.manage-community-container{
+    display: flex;
+    justify-content: center;
+    gap: 36px;
+}
+
+.manage-community-container > .one{
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+    padding: 10px 20px;
+    border-radius: 8px;
+    border: none;
+    color: #333333;
+}
+.right-arrow{
+    margin-top: -2px;
+}
+
+.unseen{
+    display: flex;
+    gap: 40px;
+    padding: 16px;
+}
+
+.unseen .unseen-img{
+    padding: 16px;
+    display: flex;
+    width: 500px;
+    margin-left: 128px;
+    justify-content: center;
+}
+
+.unseen .unseen-img > img{
+    width: 300px;
+}
+
+.unseen .unseen-text{
+    padding: 16px;
+    margin-right: 64px;
+    justify-content: center;
+    width: 600px;
+}
+
+.unseen .unseen-text > button{
+    padding: 8px 46px;
+    color: white;
+    background-color: #4caf4f;
+    border: none;
+    border-radius: 8px;
+}
+
+.helping-local{
+    padding: 16px;
+    display: flex;
+    background-color: #f5f7fa;
+    justify-content: space-evenly;
+}
+
+.left-div{
+    padding: 16px;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+}
+.right-div{
+    display: flex;
+    gap: 16px;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.right-div .top-div{
+    justify-content: space-between;
+    gap: 16px;
+}
+
+.right-div .bottom-div{
+    justify-content: space-between;
+    gap: 16px;
+}
+
+.right-div img{
+    align-items: center;
+}
+
+.right-div-icon{
+    justify-content: center;
+    align-items: center;
+    margin-right: 8px;
+}
+.left-div > h3 > span{
+    display: block;
+    color: #4caf4f;
+    font-size: 24px;
+}
+
+.tim-smith{
+    display: flex;
+    gap: 16px;
+    padding: 16px 24px;
+}
+
+.tim-smith-text{
+    margin-right: 36px;
+    color: #717171;
+}
+
+.tim-smith-img{
+
+}
+
+.top-marketing-div{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.top-marketing-div > div{
+    display: flex;
+    width: 500px;
+    margin-bottom: 16px;
+    color: #717171;
+}
+
+.bottom-marketing-div{
+    display: flex;
+    color: #4d4d4d;
+    gap: 16px;
+    justify-content: center;
+}
+
+.marketing-img{
+
+}
+
+.marketing-img-box{
+    background-color: #f5f7fa;
+    width: 300px;
+    border-radius: 8px;
+}
+
+.marketing-img-box-text{
+    text-align: center;
+}
+.marketing-img-box-text > p{
+    margin: 0px;
+}
+
+footer{
+    margin-top: 24px;
+}
+
+.footer-btn{
+    background: #f5f7fa;
+    padding: 24px;
+}
+
+.footer-btn button{
+    background: #4caf4f;
+    color: white;
+    align-items: center;
+    display: flex;
+    border: none;
+    border-radius: 4px;
+}
+
+.footer-btn .right-arrow{
+    margin-left: 4px;
+    margin-top: 4px;
+}
+
+.footer-left-div{
+    padding: 26px;
+}
+
+.footer-link{
+    background: #ed3833;
+}
+
+.foot{
+    display: flex;
+}
